@@ -4,26 +4,59 @@ import { Header } from './components/header/Header';
 import { Text } from './components/text/Text';
 import { Card } from './components/card/Card';
 //image
-import swimmer from '../assets/images/swimmer.jpg'
-import wife from '../assets/images/wife.jpg'
-import bike from '../assets/images/bike.jpg'
+import swimmer from '../assets/images/swimmer.jpg';
+import wife from '../assets/images/wife.jpg';
+import bike from '../assets/images/bike.jpg';
 
+let cards = [
+  {
+    rate: 5.0,
+    quantity: 6,
+    image: swimmer, 
+    country: 'USA',
+    title: 'Life lessons with Katie Zaferes',
+    price: 136,
+  },
+  {
+    rate: 5.0,
+    quantity: 30,
+    image: wife,
+    country: 'USA',
+    title: 'Learn wedding photography',
+    price: 125,
+  },
+  {
+    rate: 4.8,
+    quantity: 2,
+    image: bike,
+    country: 'USA',
+    title: 'Group Mountain Biking',
+    price: 50,
+  },
+  {
+    rate: 5.0,
+    quantity: 6,
+    image: swimmer, 
+    country: 'USA',
+    title: 'Life lessons with Katie Zaferes',
+    price: 136,
+  },
+];
 
-export const App = ()=> {
+export const App = () => {
   return (
     <>
-      <Header></Header>
+      <Header />
       <div className="collage-container">
-        <Collage></Collage>
+        <Collage />
       </div>
-      <Text></Text>
+      <Text />
 
       <div className="cards-container">
-        <Card image = {swimmer}></Card>
-        <Card image = {wife}></Card>
-        <Card image = {bike}></Card>
-        <Card image = {swimmer}></Card>
+        {cards.map((element, index) => (
+          <Card key={index} props = {element} />
+        ))}
       </div>
     </>
-  )
-}
+  );
+};
