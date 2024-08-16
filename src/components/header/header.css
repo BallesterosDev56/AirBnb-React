@@ -1,0 +1,12 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  header img {
+    width: 200px;
+    margin: 30px 6vw;
+  }

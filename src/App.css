@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  cursor: default;
+  user-select: none;
+}
+.collage-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0 3vw;
+  margin: 100px 0;
+}

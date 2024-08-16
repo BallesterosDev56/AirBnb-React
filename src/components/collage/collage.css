@@ -1,0 +1,30 @@
+.images-container {
+    display: grid;
+    grid-template-columns: repeat(5, 16vw);
+    align-items: center;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 70px;
+    margin-right: 7vw;
+}
+
+.images-collage {
+    height: 240px;
+    width: 190px;
+    border-radius: 15px;
+}
+
+#baker {
+    height: 155px;
+    width: 190px;
+    margin-top: -20px;
+}
+
+
+.space-center {
+    margin-top: 10px;
+}
+
+.space-top {
+    margin-top: 150px;
+}

@@ -1,0 +1,14 @@
+.title-container {
+    width: 100%;
+    padding: 0 ;
+}
+.title-container h1 {
+    font-size: 4.5rem;
+    margin-left: 6vw;
+    margin-top: -30px;
+    margin-bottom: 5px;
+}
+.title-container p{
+    margin-left: 6vw;
+    font-size: 1.9rem;
+}
