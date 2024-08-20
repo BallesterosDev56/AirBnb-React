@@ -17,14 +17,24 @@
 #baker {
     height: 155px;
     width: 190px;
-    margin-top: -20px;
+    margin-top: -80px;
+}
+#singer {
+    margin-bottom: -150px;
 }
 
 
 .space-center {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .space-top {
     margin-top: 150px;
+}
+
+.hover {
+    transition: transform 0.8s ease;
+}
+.hover:hover {
+    transform: scale(1.03);
 }

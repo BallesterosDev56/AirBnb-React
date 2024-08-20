@@ -21,27 +21,27 @@ export const Collage = () => {
       <section className="images-container">
 
         <div>
-          <img className="images-collage" src={chef} alt="chef" />
+          <img className="hover images-collage" src={chef} alt="chef" />
         </div>
 
         <div>
-          <img className="images-collage" id="baker" src={baker} alt="baker" /> <br />
-          <img className="images-collage space-center" src={ballet} alt="ballet" />
+          <img className="hover images-collage" id="baker" src={baker} alt="baker" /> <br />
+          <img className="hover images-collage space-center" src={ballet} alt="ballet" />
         </div>
 
         <div>
-          <img className="images-collage space-top" src={food} alt="food" /> <br />
-          <img className="images-collage space-center" src={guitar} alt="guitar" />
+          <img className="hover images-collage space-top" src={food} alt="food" /> <br />
+          <img className="hover images-collage space-center" src={guitar} alt="guitar" />
         </div>
 
         <div>
-          <img className="images-collage" src={meditation} alt="meditation" /> <br />
-          <img className="images-collage space-center" src={piano} alt="piano" />
+          <img className="hover images-collage" src={meditation} alt="meditation" /> <br />
+          <img className="hover images-collage space-center" src={piano} alt="piano" />
         </div>
 
         <div>
-          <img className="images-collage space-top" src={pool} alt="pool" /> <br />
-          <img className="images-collage space-center" src={singer} alt="singer" />
+          <img className="hover images-collage space-top" src={pool} alt="pool" /> <br />
+          <img className="hover images-collage space-center" id="singer" src={singer} alt="singer" />
         </div>
 
       </section>
